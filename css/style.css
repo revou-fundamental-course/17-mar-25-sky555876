@@ -1,0 +1,79 @@
+body{
+    
+}
+main{
+    background-color: darkcyan;
+    padding: 16px;
+    text-align: center;
+}
+section{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.main-header > h1{
+    margin: 0px;
+    background-color: aquamarine;
+    padding: 24px;
+    text-align: center;
+}
+
+.nav-fitur{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-fitur > a{
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 50%;
+    align-self: center;
+}
+
+.nav-fitur-active{
+ background-color: cornflowerblue;   
+}
+
+.nav-fitur-non-active{
+    background-color: rgb(1, 26, 73);   
+}
+.section-header{
+    background-color: aqua;
+    padding: 16px;
+}
+
+.border{
+    border: 1px solid;
+    height: 300px;
+    position: relative; 
+}
+
+.text{
+    text-align: left;
+
+}
+
+.text-container {
+    position: sticky;
+    bottom: 170px;
+    /left: 10px;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+.section-image{
+    background-image: url(../assets/persegi.jpg);
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.calculate-content{
+    height: 300px;
+}
