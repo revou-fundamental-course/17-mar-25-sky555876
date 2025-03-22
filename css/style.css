@@ -55,12 +55,12 @@ section{
 }
 
 .text-container {
-    position: sticky;
-    bottom: 170px;
-    /left: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
     color: black;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px
   }
 
 .section-image{
