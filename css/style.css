@@ -18,6 +18,7 @@ main{
 section{
     margin-top: 16px;
     margin-bottom: 16px;
+  
 }
 
 .main-header > h1{
@@ -31,6 +32,7 @@ section{
 .nav-fitur{
     display: flex;
     flex-direction: row;
+    
 }
 
 .nav-fitur > a{
@@ -51,6 +53,7 @@ section{
 .section-header{
     background-color: #F0F0F0;
     padding: 16px;
+    border-radius: 8px;
     
 }
 
@@ -61,6 +64,7 @@ section{
     position: relative;
     background-color: #FFFFFF;
     justify-self: center;
+    border-radius: 8px;
 
 }
 
@@ -71,6 +75,7 @@ section{
     position: relative;
     background-color: #FFFFFF;
     justify-self: center;
+    border-radius: 8px;
 }
 
 .text{
@@ -100,12 +105,14 @@ section{
 
 .calculate-content{
     height: 300px;
+    
 }
 
 .imput-nilai{
     width: 400px;
     padding: 10px;
     outline: none;
+    border-radius: 8px;
 }
 
 .button-hitung{
@@ -114,6 +121,7 @@ section{
     padding: 6px;
     background-color: #007BFF;
     color: white;
+    border-radius: 8px;
 }
 
 .button-riset{
@@ -126,6 +134,7 @@ section{
     position: absolute;
     bottom: 20px; 
     right: 20px; 
+    border-radius: 8px;
 }
 
 .section-hasil {
@@ -138,7 +147,7 @@ section{
 .rumus-perhitungan {
     padding: 15px;
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
     
 }
 
@@ -147,5 +156,6 @@ section{
     justify-content:space-around;
     padding: 15px;
     font-weight: bold;
+    
 }
 
