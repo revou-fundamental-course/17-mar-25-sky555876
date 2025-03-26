@@ -159,3 +159,23 @@ section{
     
 }
 
+.section-imageppg{
+    background-image: url(../assets/persegi\ panjang.jpg);
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.border-hasilppg{
+    border: 1px solid;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-color: #FFFFFF;
+    justify-self: center;
+    border-radius: 8px;
+}

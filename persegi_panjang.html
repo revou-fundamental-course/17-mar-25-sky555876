@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>persegi_panjang</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="./js/js/script.js"></script>
   </head>
@@ -31,48 +31,56 @@
 
       <section>
         <header class="section-header">
-          <h1>Luas Persegi</h1>
+          <h1>Luas Persegi Panjang</h1>
         </header>
         <div class="border">
-          <div class="section-image"></div>
+          <div class="section-imageppg"></div>
           <div class="calculate-content"></div>
           <div class="text-container">
-            <p style="text-align: left">Rumus Luas Persegi Yaitu :</p>
-            <p>K = s x s</p>
+            <p style="text-align: left">Rumus Luas Persegi Panjang Yaitu :</p>
+            <p>L = P x l</p>
             <div class="text">
               Di Mana :
               <br />
               L = Luas
               <br />
-              s = Sisi
+              P = Panjang
+              <br>
+              l = Lebar
             </div>
           </div>
         </div>
-        <div class="border-hasil">
+        <div class="border-hasilppg">
           <header style="font-size: 24px">
-            <h1>Hitung Luas Persegi</h1>
+            <h1>Hitung Luas Persegi Panjang</h1>
           </header>
           <input
             type="number"
-            placeholder="Nilai Sisi"
+            placeholder="Nilai Panjang"
             class="imput-nilai"
-            id="sisi-luas"
+            id="Panjang-Luas"
+          />
+          <input
+            type="number"
+            placeholder="Nilai Lebar"
+            class="imput-nilai"
+            id="Lebar-Luas"
           />
           <div class="section-hasil">
-            <h4>Keliling dan Luas Persegi:</h4>
+            <h4>Luas Persegi Panjang :</h4>
             <div class="rumus-perhitungan">
-                <p id="rumusLuas"></p>
+                <p id="rumusLuasPpg"></p>
             </div>
             <div class="hasil-perhitungan">
-                <p id="hasilLuas"></p>
+                <p id="hasilLuasPpg"></p>
             </div>
           </div>
           <br />
-          <button class="button-hitung" onclick=" perhitunganPerkalianluas()">
+          <button class="button-hitung" onclick=" perhitunganPerkalianLuasPpg()">
             HITUNG
           </button>
           <br>
-          <button class="button-riset" onclick="risetLuas()">
+          <button class="button-riset" onclick="risetLuasPpg()">
             Reset
           </button>
         </div>
@@ -83,47 +91,55 @@
           <h1>Keliling Persegi</h1>
         </header>
         <div class="border">
-          <div class="section-image"></div>
+          <div class="section-imageppg"></div>
           <div class="calculate-content"></div>
           <div class="text-container">
-            <p style="text-align: left">Rumus Keliling Persegi Yaitu :</p>
-            <p>K = 4 x s</p>
+            <p style="text-align: left">Rumus Keliling Persegi Panjang Yaitu :</p>
+            <p>K = 2 ( P + l )</p>
             <div class="text">
               Di Mana :
               <br />
               K = Keliling
               <br />
-              s = Sisi
+              P = Panjang
+              <br>
+              l = Lebar
             </div>
           </div>
         </div>
-        <div class="border-hasil">
+        <div class="border-hasilppg">
           <header style="font-size: 24px">
-            <h1>Hitung Keliling Persegi</h1>
+            <h1>Hitung Keliling Persegi Panjang</h1>
           </header>
           <input
             type="number"
-            placeholder="Nilai Sisi"
+            placeholder="Nilai Panjang"
             class="imput-nilai"
-            id="sisi"
+            id="Panjang-Keliling"
+          />
+          <input
+            type="number"
+            placeholder="Nilai Lebar"
+            class="imput-nilai"
+            id="Lebar-Keliling"
           />
           <div class="section-hasil">
-            <h4>Keliling dan Luas Persegi:</h4>
+            <h4>Keliling Persegi Panjang:</h4>
             <div class="rumus-perhitungan">
-                <p id="rumuKeliling"></p>
+                <p id="rumusKelilingPpg"></p>
             </div>
             <div class="hasil-perhitungan">
-                <p id="hasilKeliling"></p>
+                <p id="hasilKelilingPpg"></p>
             </div>
           </div>
           <br />
-          <button class="button-hitung" onclick="perhitunganPerkalianKeliling()">
+          <button class="button-hitung" onclick="perhitunganPerkalianKelilingPpg()">
             HITUNG
           </button>
           
           <br/>
 
-          <button class="button-riset" onclick="risetKeliling()">
+          <button class="button-riset" onclick="risetKelilingPpg()">
             Reset
           </button>
 
