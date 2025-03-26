@@ -1,8 +1,15 @@
 function perhitunganPerkalian() {
-    let bilanganPertama = document.getElementById("").Value;
-    let bilanganKedua = document.getElementById("").Value;
-
-        let hasilPerkalian = parseInt(bilanganPertama) * parseInt(bilanganKedua);
+    let bilanganPertama = document.getElementById("sisi").value;
     
-    console.log(hasil)
+        let hasilPerkalian = parseInt(bilanganPertama) * 4 ;
+    
+    console.log(hasilPerkalian);
+}
+
+function perhitunganPerkalianLuas() {
+    let bilanganPertama = document.getElementById("sisi-luas").value;
+    
+        let hasilPerkalian = parseInt(bilanganPertama) * parseInt(bilanganPertama) ;
+    
+    console.log(hasilPerkalian);
 }
