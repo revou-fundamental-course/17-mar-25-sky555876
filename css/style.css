@@ -5,6 +5,7 @@
     font-style: normal;
 }
 
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -55,10 +56,21 @@ section{
 
 .border{
     border: 1px solid;
+    width: 500px;
     height: 300px;
-    position: relative; 
+    position: relative;
     background-color: #FFFFFF;
+    justify-self: center;
 
+}
+
+.border-hasil{
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: #FFFFFF;
+    justify-self: center;
 }
 
 .text{
@@ -91,8 +103,9 @@ section{
 }
 
 .imput-nilai{
-    width: 1000px;
+    width: 400px;
     padding: 10px;
+    outline: none;
 }
 
 .button-hitung{
@@ -102,3 +115,37 @@ section{
     background-color: #007BFF;
     color: white;
 }
+
+.button-riset{
+    
+    text-align: center;
+    padding: 6px;
+    background-color: yellow;
+    color: white;
+    float: right;
+    position: absolute;
+    bottom: 20px; 
+    right: 20px; 
+}
+
+.section-hasil {
+    border-radius: 8px;
+    background: #f2f2f2;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+}
+
+.rumus-perhitungan {
+    padding: 15px;
+    display: flex;
+    justify-content:space-around
+    
+}
+
+.hasil-perhitungan {
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    font-weight: bold;
+}
+

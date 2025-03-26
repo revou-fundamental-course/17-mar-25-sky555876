@@ -6,8 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="./js/js/script.js"></script>
-
-    
   </head>
   <body>
     <header class="main-header">
@@ -21,11 +19,10 @@
 
       <p>Hai sobat selamat datang di Katik</p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et consectetur
-        necessitatibus ad architecto non porro ullam. Laboriosam excepturi
-        quibusdam eligendi veritatis qui sapiente nihil tenetur reprehenderit
-        iusto, delectus laborum. Quos.
+        Situs ini akan membantu anda untuk menghitung luas dan keliling bangun
+        datar dengan lebih cepat dan mudah.
       </p>
+      <p>Silahkan pilih bangun datar yang ingin anda hitung.</p>
 
       <div class="nav-fitur">
         <a href="" class="nav-fitur-active">Persegi</a>
@@ -49,21 +46,36 @@
               <br />
               s = Sisi
             </div>
-          </div>  
+          </div>
         </div>
-        <div class="border">
+        <div class="border-hasil">
           <header style="font-size: 24px">
-            <h1>Hitung Sisi Persegi</h1>
+            <h1>Hitung Luas Persegi</h1>
           </header>
-          <input type="number"  placeholder="Nilai Sisi" class="imput-nilai" id="sisi-luas" name="sisi-luas">
-          <br>
-          <button class="button-hitung" onclick="perhitunganPerkalianLuas()">
+          <input
+            type="number"
+            placeholder="Nilai Sisi"
+            class="imput-nilai"
+            id="sisi-luas"
+          />
+          <div class="section-hasil">
+            <h4>Keliling dan Luas Persegi:</h4>
+            <div class="rumus-perhitungan">
+                <p id="rumusLuas"></p>
+            </div>
+            <div class="hasil-perhitungan">
+                <p id="hasilLuas"></p>
+            </div>
+          </div>
+          <br />
+          <button class="button-hitung" onclick=" perhitunganPerkalianluas()">
             HITUNG
           </button>
-
-
+          <br>
+          <button class="button-riset" onclick="risetLuas()">
+            Reset
+          </button>
         </div>
-            
       </section>
 
       <section>
@@ -85,19 +97,37 @@
             </div>
           </div>
         </div>
-        <div class="border">
+        <div class="border-hasil">
           <header style="font-size: 24px">
             <h1>Hitung Keliling Persegi</h1>
           </header>
-          <input type="number"  placeholder="Nilai Sisi" class="imput-nilai" id="sisi" name="sisi">
-          <br>
-          <button class="button-hitung" onclick="perhitunganPerkalian()">
+          <input
+            type="number"
+            placeholder="Nilai Sisi"
+            class="imput-nilai"
+            id="sisi"
+          />
+          <div class="section-hasil">
+            <h4>Keliling dan Luas Persegi:</h4>
+            <div class="rumus-perhitungan">
+                <p id="rumuKeliling"></p>
+            </div>
+            <div class="hasil-perhitungan">
+                <p id="hasilKeliling"></p>
+            </div>
+          </div>
+          <br />
+          <button class="button-hitung" onclick="perhitunganPerkalianKeliling()">
             HITUNG
           </button>
+          
+          <br/>
 
+          <button class="button-riset" onclick="risetKeliling()">
+            Reset
+          </button>
 
         </div>
-
       </section>
     </main>
 
