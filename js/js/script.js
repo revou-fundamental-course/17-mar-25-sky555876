@@ -15,16 +15,16 @@ function perhitunganPerkalianluas() {
 }
 
 function risetKeliling() {
-    document.getElementById("sisi").value="";
-    document.getElementById("rumuKeliling").innerText=``;
-    document.getElementById("hasilKeliling").innerText =``;
+    document.getElementById("sisi").value = "";
+    document.getElementById("rumuKeliling").innerText = ``;
+    document.getElementById("hasilKeliling").innerText = ``;
 
 }
 
 function risetLuas() {
-    document.getElementById("sisi-luas").value="";
-    document.getElementById("rumusLuas").innerText =``;
-    document.getElementById("hasilLuas").innerText =``;
+    document.getElementById("sisi-luas").value = "";
+    document.getElementById("rumusLuas").innerText = ``;
+    document.getElementById("hasilLuas").innerText = ``;
 }
 
 function perhitunganPerkalianLuasPpg() {
@@ -45,15 +45,15 @@ function perhitunganPerkalianKelilingPpg() {
 }
 
 function risetLuasPpg() {
-    document.getElementById("Panjang-Luas").value="";
-    document.getElementById("Lebar-Luas").value="";
-    document.getElementById("rumusLuasPpg").innerText =``;
-    document.getElementById("hasilLuasPpg").innerText =``;
+    document.getElementById("Panjang-Luas").value = "";
+    document.getElementById("Lebar-Luas").value = "";
+    document.getElementById("rumusLuasPpg").innerText = ``;
+    document.getElementById("hasilLuasPpg").innerText = ``;
 }
 
 function risetKelilingPpg() {
-    document.getElementById("Panjang-Keliling").value="";
-    document.getElementById("Lebar-Keliling").value="";
-    document.getElementById("rumusKelilingPpg").innerText =``;
-    document.getElementById("hasilKelilingPpg").innerText =``;
+    document.getElementById("Panjang-Keliling").value = "";
+    document.getElementById("Lebar-Keliling").value = "";
+    document.getElementById("rumusKelilingPpg").innerText = ``;
+    document.getElementById("hasilKelilingPpg").innerText = ``;
 }

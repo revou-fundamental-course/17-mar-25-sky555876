@@ -1,189 +1,178 @@
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  width: 1000px;
+  justify-self: center;
 }
 
-main{
-    background-color: #FFF8DC;
-    padding: 16px;
-    text-align: center;
+main {
+  background-color: #fff8dc;
+  padding: 16px;
+  text-align: center;
 }
-section{
-    margin-top: 16px;
-    margin-bottom: 16px;
-  
-}
-
-.main-header > h1{
-    margin: 0px;
-    background-color: #023047;
-    padding: 24px;
-    text-align: center;
-    color: white;
+section {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.nav-fitur{
-    display: flex;
-    flex-direction: row;
-    
+.main-header > h1 {
+  margin: 0px;
+  background-color: #023047;
+  padding: 24px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
 }
 
-.nav-fitur > a{
-    color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    width: 50%;
-    align-self: center;
+.nav-fitur {
+  display: flex;
+  flex-direction: row;
 }
 
-.nav-fitur-active{
- background-color: #8ECAE6;   
+.nav-fitur > a {
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 50%;
+  align-self: center;
 }
 
-.nav-fitur-non-active{
-    background-color: #219EBC;   
-}
-.section-header{
-    background-color: #8ECAE6;
-    padding: 16px;
-    border-radius: 8px;
-    
+.nav-fitur-active {
+  background-color: #8ecae6;
 }
 
-
-.border{
-    border: 1px solid;
-    width: 500px;
-    height: 300px;
-    position: relative;
-    background-color: #FFFFFF;
-    justify-self: center;
-    border-radius: 8px;
-
+.nav-fitur-non-active {
+  background-color: #219ebc;
+}
+.section-header {
+  background-color: #8ecae6;
+  padding: 16px;
+  border-radius: 8px;
 }
 
-.border-hasil{
-    border: 1px solid;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    background-color: #FFFFFF;
-    justify-self: center;
-    border-radius: 8px;
+.border {
+  border: 1px solid;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background-color: #ffffff;
+  justify-self: center;
+  border-radius: 8px;
 }
 
-.text{
-    text-align: left;
+.border-hasil {
+  border: 1px solid;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: #ffffff;
+  justify-self: center;
+  border-radius: 8px;
+}
 
+.text {
+  text-align: left;
 }
 
 .text-container {
-    position: absolute;
-    bottom: 50px;
-    left: 10px;
-    color: black;
-    font-size: 16px;
-    padding: 10px
-  }
-
-.section-image{
-    background-image: url(../assets/persegi.jpg);
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    justify-self: center;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
 }
 
-.calculate-content{
-    height: 300px;
-    
+.section-image {
+  background-image: url(../assets/persegi.jpg);
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
 }
 
-.imput-nilai{
-    width: 400px;
-    padding: 10px;
-    outline: none;
-    border-radius: 8px;
+.calculate-content {
+  height: 300px;
 }
 
-.button-hitung{
-    
-    text-align: center;
-    padding: 6px;
-    background-color: #FB8703;
-    color: black;
-    border-radius: 8px;
+.imput-nilai {
+  width: 400px;
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
 }
 
-.button-riset{
-    
-    text-align: center;
-    padding: 6px;
-    background-color: #FB8500;
-    color: black;
-    float: right;
-    position: absolute;
-    bottom: 20px; 
-    right: 20px; 
-    border-radius: 8px;
+.button-hitung {
+  text-align: center;
+  padding: 6px;
+  background-color: #fb8703;
+  color: black;
+  border-radius: 8px;
+}
+
+.button-riset {
+  text-align: center;
+  padding: 6px;
+  background-color: #fb8500;
+  color: black;
+  float: right;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 8px;
 }
 
 .section-hasil {
-    border-radius: 8px;
-    background: #f2f2f2;
-    margin: 20px 20px 0px 20px;
-    padding: 10px;
+  border-radius: 8px;
+  background: #f2f2f2;
+  margin: 20px 20px 0px 20px;
+  padding: 10px;
 }
 
 .rumus-perhitungan {
-    padding: 15px;
-    display: flex;
-    justify-content:space-around;
-    
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .hasil-perhitungan {
-    display: flex;
-    justify-content:space-around;
-    padding: 15px;
-    font-weight: bold;
-    
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  font-weight: bold;
 }
 
-.section-imageppg{
-    background-image: url(../assets/persegi\ panjang.jpg);
-    background-color: white;
-    width: 150px;
-    height: 100px;
-    justify-self: center;
-    background-size: cover;
-    background-position: center;
-    
+.section-imageppg {
+  background-image: url(../assets/persegi\ panjang.jpg);
+  background-color: white;
+  width: 150px;
+  height: 100px;
+  justify-self: center;
+  background-size: cover;
+  background-position: center;
 }
 
-.border-hasilppg{
-    border: 1px solid;
-    width: 600px;
-    height: 600px;
-    position: relative;
-    background-color: #FFFFFF;
-    justify-self: center;
-    border-radius: 8px;
+.border-hasilppg {
+  border: 1px solid;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background-color: #ffffff;
+  justify-self: center;
+  border-radius: 8px;
 }
 
-.section-headerppg{
-    background-color: #219EBC;
-    padding: 16px;
-    border-radius: 8px;
-    
+.section-headerppg {
+  background-color: #219ebc;
+  padding: 16px;
+  border-radius: 8px;
 }
